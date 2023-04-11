@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "pico.h": "c",
+        "rp2040.h": "c"
+    }
+}
