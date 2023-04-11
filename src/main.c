@@ -143,8 +143,8 @@ int main() {
                 facc[i] = (float)acceleration[i]/sens_acc; // acc in m/s2
                 fgyro[i] = (float)gyro[i]/sens_gyro;        // acc in deg/s2
             }
-            printf("a = [%0.3f, %0.3f, %0.3f] in g\n", facc[0], facc[1], facc[2]);
-            printf("w = [%0.3f, %0.3f, %0.3f] in deg/s\n", fgyro[0], fgyro[1], fgyro[2]);
+            printf("a = [%0.3f, %0.3f, %0.3f] g\n", facc[0], facc[1], facc[2]);
+            printf("w = [%0.3f, %0.3f, %0.3f] deg/s\n", fgyro[0], fgyro[1], fgyro[2]);
         }
     }
 }
